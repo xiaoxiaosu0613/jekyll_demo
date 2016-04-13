@@ -1,1 +1,15 @@
-baseurl: /jekyll_demo
+github: [metadata]
+ kramdown:
+   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+   hard_wrap: false
+ gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
+
+lsi: false
+ safe: true
+ source: [your repo's top level directory]
+ incremental: false
+ highlighter: rouge
+ gist:
+   noscript: false
